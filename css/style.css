@@ -50,9 +50,12 @@ a:hover {
     text-decoration: none;
 }
 
-li > a{
-  display: flex;
-  margin-bottom: 10px;
+@media only screen and (max-width: 600px) {
+  .line-items {
+    margin-bottom: 30px;
+  }
+
+  header.masthead {
+    background: url("../img/Black.jpg");
+  }
 }
-
-

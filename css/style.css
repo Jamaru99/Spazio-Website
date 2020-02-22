@@ -50,12 +50,22 @@ a:hover {
     text-decoration: none;
 }
 
+li > a {
+  margin-bottom: 10px;
+}
+
 @media only screen and (max-width: 600px) {
   .line-items {
     margin-bottom: 30px;
   }
 
   header.masthead {
-    background: url("../img/Black.jpg");
+    background: url("../img/Black.jpg") no-repeat center center;
+  }
+
+  li > a {
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 15px;
   }
 }

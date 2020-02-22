@@ -8,14 +8,13 @@ h1,h2,h3,h4,h5,h6 {
 
 header.masthead{
 	position: relative;
-	background-color: #343a40;
-	background: url("../img/Black.jpg") no-repeat center center;
-	-webkit-background-size: cover;
+  -webkit-background-size: cover;
+  background: url("../img/beauty-salon.jpg") no-repeat center center;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-	padding-top: 2rem;
-    padding-bottom: 2rem;
+	padding-top: 5rem;
+    padding-bottom: 5rem;
 
 }
 
@@ -42,13 +41,18 @@ footer.footer {
 a {
     color: #c74335;
     text-decoration: none;
+
 }
 
 a:hover {
     color: #1043FF;
     font-weight: bold;
     text-decoration: none;
-	
+}
+
+li > a{
+  display: flex;
+  margin-bottom: 10px;
 }
 
 

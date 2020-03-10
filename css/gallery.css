@@ -2,7 +2,7 @@ body {
     width: 100%;
     height: 100%;
     margin: 0px auto;
-    background-color: blanchedalmond;
+    /* background-color: blanchedalmond; */
 }
 
 html, body, p{
@@ -10,20 +10,25 @@ html, body, p{
     padding: 0px;
 }
 
-.main-gallery{
-    background-color: #555555;
+.header-intro h1{
+    margin-top: 20px;
+    text-align: center;
+    color: #DAA520;
 }
 
-.header-intro{
-    text-align: center;
+.main-gallery{
+    /* background-color: #555555; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .gallery{
     width: 1000px;
     height: 1000px;
-    margin: 100px;
+    margin: 50px;
     /* border: 10px solid #555555; */
-    border: 10px solid #F44;
+    border: 10px solid #DAA520;
     background-color: #222222;
     display: flex;
     flex: 1;

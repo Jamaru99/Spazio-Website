@@ -1,0 +1,56 @@
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0px auto;
+    background-color: blanchedalmond;
+}
+
+html, body, p{
+    margin: 0px;
+    padding: 0px;
+}
+
+.main-gallery{
+    background-color: #555555;
+}
+
+.header-intro{
+    text-align: center;
+}
+
+.gallery{
+    width: 1000px;
+    height: 1000px;
+    margin: 100px;
+    /* border: 10px solid #555555; */
+    border: 10px solid #F44;
+    background-color: #222222;
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.row-pictures-container{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.picture-container{
+    margin: 5px;
+}
+
+.picture-container img{
+    /* object-fit: contain; */
+    object-fit: cover;
+    height: 200px;
+    width: 200px;
+    /* cursor: pointer; */
+}

@@ -33,6 +33,25 @@ header.masthead{
   width: 100%;
 }
 
+table {
+  width: 60%;
+}
+
+th, td{
+  height: 40px;
+  text-align: center;
+  border-bottom: 1px solid #DDDD ;
+}
+
+th{
+  background-color: #4CAF50;
+  color: white;
+}
+
+tr:nth-child(even){
+  background-color: #F2F2F2;
+}
+
 footer.footer {
   padding-top: 4rem;
   padding-bottom: 4rem;

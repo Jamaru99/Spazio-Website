@@ -39,12 +39,8 @@ header.masthead{
 .tables-container{
   display: flex;
   flex-wrap: wrap;
-  padding-bottom: 20px;
-}
-
-div > table {
-  /* width: 40%; */
-  margin-left: 150px;
+  justify-content: space-around;
+  padding: 0 50px 20px 50px;
 }
 
 th, td{

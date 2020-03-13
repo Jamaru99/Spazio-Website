@@ -26,30 +26,20 @@ header.masthead{
 .showcase .showcase-text {
   padding: 3rem;
   background-size: cover;
-
 }
 
 .showcase img{
   width: 100%;
 }
 
-@font-face{
-  font-family: arabella;
-  src: url('../font/arabella.ttf');
-}
-
 .title-service{
-  margin-top: 20px;
-  text-align: center;
-  color: #6E2F10;
-  font: 100px arabella;
+  padding-top: 30px;
 }
 
 .tables-container{
   display: flex;
-  flex-direction: row;
-  justify-content: start;
   flex-wrap: wrap;
+  padding-bottom: 20px;
 }
 
 div > table {
@@ -64,9 +54,11 @@ th, td{
 }
 
 th{
-  background-color: #6E2F10;
+  background-color: #c74335DD;
+  border-top-left-radius: 30px 20px;
+  border-top-right-radius: 30px 20px;
   color: white;
-  font-size: 40px;
+  font-size: 30px;
 }
 
 tr:nth-child(even){

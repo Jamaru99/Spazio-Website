@@ -33,14 +33,24 @@ header.masthead{
   width: 100%;
 }
 
+.services{
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+/* .services > div{
+  margin-right: 300px;
+} */
+
 table {
-  width: 60%;
+  width: 100%;
 }
 
 th, td{
-  height: 40px;
+  height: 60px;
   text-align: center;
-  border-bottom: 1px solid #DDDD ;
+  border-bottom: 1px solid #DDDD;
 }
 
 th{
@@ -50,6 +60,14 @@ th{
 
 tr:nth-child(even){
   background-color: #F2F2F2;
+}
+
+td{
+  width: 150px;
+}
+
+td:nth-child(3){
+  padding-left: 100px;
 }
 
 footer.footer {

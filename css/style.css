@@ -33,12 +33,6 @@ header.masthead{
   width: 100%;
 }
 
-.services{
-  /* display: flex; */
-  /* justify-content: center; */
-  /* align-items: flex-start; */
-}
-
 @font-face{
   font-family: arabella;
   src: url('../font/arabella.ttf');
